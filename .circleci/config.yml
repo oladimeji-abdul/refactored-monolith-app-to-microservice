@@ -30,7 +30,7 @@ jobs:
             docker tag reverseproxy 8060633493/reverseproxy:v1
             echo "-------- All images succesfully built----------"
             echo " ------- login in to hub--------"
-            docker login -u 8060633493 -p $DOCKER__PASSWORD
+            docker login -u 698834 -p $DOCKER__PASSWORD
             echo "-------------- Pushing images to dockerhub-------"
             docker push 8060633493/udagram-api-feed:v1
             docker push 8060633493/udagram-api-user:v1
